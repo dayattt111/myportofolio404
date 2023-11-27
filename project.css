@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+header{
+    /* background-color: burlywood; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    /* color: brown; */
+    cursor: default;
+}
+h2{
+    color: burlywood;
+}
+span{
+    color: brown;
+}
+.navbar a{
+    font-size: 1.3em;
+    color: brown;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 400;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: burlywood;
+    transition: .5s;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20%;
+}
+.tombol-download{
+    color: burlywood;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    background-color: brown;
+    border-radius: 60px;
+    font-weight: 400;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) .5s;
+}
+.tombol-download:hover{
+    background-color: burlywood;
+    color: brown;
+    border-radius: 10%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.kiri{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 0px;
+    margin: 0;
+    flex-grow: 1;
+}
+.kiri ul{
+    padding: 25px;
+}
+.kiri li{
+    list-style-type: none;
+    padding-left: 0;
+}
+.foto img{
+    width: 300px;
+    height: 200px;
+}
+.card{
+    padding: 20px;
+}
+.kanan{
+    margin: 0;
+    padding-top: 200px;
+    display: flex;
+    flex-grow: 5;
+    padding-bottom: 2000px;
+}
+.kanan1{
+    margin: 0;
+    padding-top: 200px;
+    display: flex;
+    flex-grow: 5;
+}
+.main{
+    /* justify-content: center */
+    text-align: center;
+    margin-top: 150px;
+}
+.s-main{
+    display: flex;
+    justify-content: center;
+
+}
+.main img{
+    margin: 50px;
+    height: 200px;
+    width: 300px;
+}

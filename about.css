@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(bgcoklat.jpg); */
+    background-color:burlywood ;
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    /* color: brown; */
+    cursor: default;
+}
+h2{
+    color: burlywood;
+}
+span{
+    color: brown;
+}
+.navbar a{
+    font-size: 1.3em;
+    color: brown;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 400;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: burlywood;
+    transition: .5s;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20%;
+}
+.tombol-download{
+    color: burlywood;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    background-color: brown;
+    border-radius: 60px;
+    font-weight: 400;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) .5s;
+}
+.tombol-download:hover{
+    background-color: burlywood;
+    color: brown;
+    border-radius: 10%;
+}
+.main{
+   padding-top: 100px;
+   background-color: brown;
+   color: burlywood;
+   height: 500px;
+}
+.bagi{
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0; */
+    display: flex;
+    justify-content: center;
+}
+.kanan #kecil{
+    font-size: 20px;
+
+}
+.kiri{
+    flex-grow: 1;
+    /* background-color: blue; */
+    /* height: 100px;
+    width: 100px; */
+    padding: 20px;
+    margin-left: 50px;
+    /* margin-right: 100px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.kiri img{
+    /* padding: 20px; */
+    /* position: relative; */
+    left: 0px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 300px;
+    height: 300px;
+}
+.kanan{
+    flex-grow: 10;
+    /* margin-left: 100px; */
+    height: 100px;
+    width: 90%;
+    /* background-color: red; */
+    padding: 20px;
+}
+.kanan h3{
+    padding-top: 20px;
+}
+.layer1{
+    padding-top: 50px;
+    height: 500px;
+    background-color: burlywood;
+    
+}
+.sublayer1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.card1{
+    padding: 20px;
+}
+.card1 h2{
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 15px;
+    color: brown;
+}
+.card1 img{
+    /* border-bottom: 20px solid black ;
+    border-left: 10px solid black; */
+    box-shadow: brown 5px 5px 10px 5px;
+    border: 5px solid brown;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.container{
+    background-color: brown;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+.kon-kiri{
+    /* width: 50%; */
+    padding: 25px;
+    margin: 20px;
+}
+.kon-kanan{
+    /* width: 100%; */
+    padding: 25px;
+    margin: 20px;
+}
+.kon-kanan img{
+    border-radius: 70px;
+    width: 500px;
+    height: 300px;
+}
